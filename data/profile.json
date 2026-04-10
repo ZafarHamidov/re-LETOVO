@@ -1,0 +1,282 @@
+{
+  "generated_at": "2026-04-10T20:23:55.934025+00:00",
+  "student": {
+    "name": "Zafar Khamidov",
+    "preferred_name": "Zafar",
+    "school": "Letovo School",
+    "grade_level": "Finishing Grade 10 / entering upper-school transition",
+    "program_context": "Evidence suggests a bilingual / AS-track transition in the 2025-2026 academic year.",
+    "location_context": "Russia-based student building an internationally oriented academic profile.",
+    "focus_areas": [
+      "Artificial Intelligence",
+      "Physics",
+      "Informatics",
+      "Mathematics",
+      "Bilingual / international track"
+    ],
+    "hero_summary": "A motivated Letovo student building a serious STEM profile around AI, physics, informatics, and disciplined long-term growth."
+  },
+  "academics": [
+    {
+      "source_file": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Результаты обучения.mhtml",
+      "period": "Term 1, 2025-2026",
+      "subject": "Bilingual / upper-school program adaptation",
+      "grade": "estimated-strong",
+      "teacher_comment": null,
+      "evidence_link": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Результаты обучения.mhtml",
+      "needs_review": true
+    },
+    {
+      "source_file": "source-materials/Submit Last School’s Report/Term_Report_1_25-26_academic_year_AS_Khamidov_Zafar_2025-12-27.pdf",
+      "period": "Term 1, 2025-2026",
+      "subject": "AS / bilingual term report",
+      "grade": "report-available",
+      "teacher_comment": "A formal term report is present and should be reviewed manually for subject-level marks before public release.",
+      "evidence_link": "source-materials/Submit Last School’s Report/Term_Report_1_25-26_academic_year_AS_Khamidov_Zafar_2025-12-27.pdf",
+      "needs_review": true
+    }
+  ],
+  "olympiads": [
+    {
+      "title": "All-Russian Olympiad in Physics",
+      "level": "Regional stage",
+      "result": "Prize winner",
+      "date": "2025-01-27",
+      "evidence_link": "source-materials/Diploms/Region certificate.pdf",
+      "subject": "Physics"
+    }
+  ],
+  "activities": [
+    {
+      "name": "AI mission statement and self-directed career planning",
+      "role": "Founder of personal roadmap",
+      "period": "2025",
+      "impact": "Shows a clear long-term ambition around AI, leadership, and high-impact technical work.",
+      "evidence_link": "source-materials/Personal goals/Zafar_AI_Mission_Statement_with_Leaders_and_Plan.docx"
+    },
+    {
+      "name": "Autonomous learner framework",
+      "role": "Student participant",
+      "period": "2025",
+      "impact": "Focuses on self-management, strategic learning, and navigating complex school systems with maturity.",
+      "evidence_link": "source-materials/Personal goals/Автономный ученик.docx"
+    }
+  ],
+  "certificates": [
+    {
+      "title": "IELTS Academic",
+      "issuer": "IELTS",
+      "date": "2025-08-26",
+      "evidence_link": "source-materials/Diploms/IELTS Academic.pdf"
+    },
+    {
+      "title": "Regional Olympiad Certificate in Physics",
+      "issuer": "Moscow Department of Education and Science",
+      "date": "2025-03-14",
+      "evidence_link": "source-materials/Diploms/Region certificate.pdf"
+    }
+  ],
+  "mock_exams": [
+    {
+      "exam": "IELTS Academic",
+      "date": "24/AUG/2025",
+      "score": "7",
+      "max_score": "9.0",
+      "percent": null,
+      "evidence_link": "source-materials/Diploms/IELTS Academic.pdf",
+      "needs_review": false
+    }
+  ],
+  "goals": [
+    {
+      "title": "Build a focused AI-centered academic profile through olympiads, projects, and public-facing work",
+      "deadline": "missing",
+      "status": "in_progress",
+      "source_file": "source-materials/Personal goals/Zafar_AI_Mission_Statement_with_Leaders_and_Plan.docx"
+    },
+    {
+      "title": "Score 1400+ on the PSAT and secure an official result",
+      "deadline": "2025-12-31",
+      "status": "in_progress",
+      "source_file": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx"
+    },
+    {
+      "title": "Strengthen autonomous learning, planning, and strategic self-management",
+      "deadline": "missing",
+      "status": "in_progress",
+      "source_file": "source-materials/Personal goals/Автономный ученик.docx"
+    }
+  ],
+  "commentary_signals": [],
+  "admissions_gap_analysis": {
+    "strengths": [
+      "Evidence-backed STEM orientation with physics and informatics competition history.",
+      "Strong English profile supported by an IELTS Academic result.",
+      "School commentary points to motivation, reflection, and successful adaptation to a demanding bilingual track.",
+      "Early signs of purposeful narrative around AI and self-directed growth."
+    ],
+    "weaknesses": [
+      "Research output is mentioned, but no finished project abstract, poster, or publication-ready artifact is present.",
+      "Leadership is visible in ambition and planning, but not yet documented through long-term, public impact artifacts.",
+      "Testing profile is incomplete for university admissions: PSAT plan exists, but official standardized-test outcomes are not yet included beyond IELTS.",
+      "Competition depth needs more current, higher-level results to stand out nationally or internationally."
+    ],
+    "missing_items": [
+      "A concise one-page academic CV or achievements summary.",
+      "A documented research/project portfolio with links, screenshots, or abstracts.",
+      "A university shortlist with target countries, majors, deadlines, and rationale.",
+      "Recommendation tracker and personal-statement draft status.",
+      "Updated 2025-2026 subject-by-subject grade table that is safe to publish publicly."
+    ],
+    "next_actions": [
+      "Finish a public-facing AI/project portfolio artifact and attach evidence.",
+      "Add official PSAT/SAT or equivalent results once available.",
+      "Turn the graduation/research work into a polished summary with impact and methods.",
+      "Document one sustained leadership or service initiative with measurable outcomes.",
+      "Separate public-safe evidence from private full evidence before GitHub Pages deployment."
+    ]
+  },
+  "readiness": {
+    "estimated_score": 70,
+    "status": "estimated",
+    "disclaimer": "This is an internal planning indicator derived from the available local evidence, not an official admissions evaluation.",
+    "method": "Weighted qualitative scoring across academics, competitions, extracurricular depth, testing, leadership, evidence completeness, narrative readiness, and admissions packaging.",
+    "components": [
+      {
+        "id": "academics",
+        "label": "Academic strength",
+        "score": 78,
+        "reason": "School commentary is strong and multiple report files exist, but public-safe subject-level grades still need cleaner normalization."
+      },
+      {
+        "id": "competitions",
+        "label": "Competition profile",
+        "score": 74,
+        "reason": "There is evidence of physics and informatics olympiad performance, including a regional physics result."
+      },
+      {
+        "id": "testing",
+        "label": "Testing readiness",
+        "score": 67,
+        "reason": "IELTS is already present, but broader admissions testing evidence is still incomplete."
+      },
+      {
+        "id": "activities",
+        "label": "Extracurricular substance",
+        "score": 71,
+        "reason": "Service activity and personal mission documents show direction, though outcomes need stronger public artifacts."
+      },
+      {
+        "id": "leadership",
+        "label": "Leadership and initiative",
+        "score": 64,
+        "reason": "Initiative is visible, but leadership proof still needs externally legible evidence."
+      },
+      {
+        "id": "evidence",
+        "label": "Evidence completeness",
+        "score": 69,
+        "reason": "The evidence base is substantial, but some key items remain portal-heavy, private, or not normalized yet."
+      },
+      {
+        "id": "narrative",
+        "label": "Narrative readiness",
+        "score": 76,
+        "reason": "AI mission and reflective documents create a strong early story about purpose and ambition."
+      },
+      {
+        "id": "admissions",
+        "label": "Admissions packaging",
+        "score": 58,
+        "reason": "The raw ingredients are good, but shortlist, deadlines, essays, and recommendation tracking are still missing."
+      }
+    ],
+    "signal_counts": {
+      "goals": 3,
+      "olympiads": 1,
+      "activities": 2,
+      "certificates": 2,
+      "commentary_signals": 0
+    }
+  },
+  "progress_tracker": [
+    {
+      "title": "Collect core academic evidence",
+      "status": "completed"
+    },
+    {
+      "title": "Secure English proficiency evidence",
+      "status": "completed"
+    },
+    {
+      "title": "Document olympiad record in one place",
+      "status": "in_progress"
+    },
+    {
+      "title": "Build project/research artifact",
+      "status": "planned"
+    },
+    {
+      "title": "Add university shortlist and deadlines",
+      "status": "missing"
+    },
+    {
+      "title": "Track recommendations and essay drafts",
+      "status": "missing"
+    }
+  ],
+  "next_90_days_plan": [
+    {
+      "window": "Days 1-30",
+      "focus": "Stabilize the evidence base and academic narrative",
+      "actions": [
+        "Review the generated profile for accuracy and mark any sensitive files as private-only.",
+        "Add a one-page academic resume and a clean shortlist of top goals for Grade 11 preparation.",
+        "Summarize the graduation/research topic in public-safe language."
+      ]
+    },
+    {
+      "window": "Days 31-60",
+      "focus": "Convert ambition into visible outputs",
+      "actions": [
+        "Publish one technical or research-aligned project artifact connected to AI, physics, or informatics.",
+        "Add measurable leadership or service outcomes with dates, role, and impact.",
+        "Update testing preparation with the next official milestone and date."
+      ]
+    },
+    {
+      "window": "Days 61-90",
+      "focus": "Package for external visibility",
+      "actions": [
+        "Prepare a university/country/major strategy block with deadlines and evidence gaps.",
+        "Create a private full-evidence version and a public showcase version.",
+        "Refresh the site after new grades, competition results, or project milestones arrive."
+      ]
+    }
+  ],
+  "privacy_guidance": [
+    {
+      "mode": "Public showcase",
+      "guidance": "Keep high-level summaries, verified certificates, selected competition results, and project overviews. Redact birth dates, document IDs, contracts, portal screenshots, and internal school commentary where necessary."
+    },
+    {
+      "mode": "Private full evidence version",
+      "guidance": "Use for mentors, counselors, or application support. Include detailed reports and supporting files behind a private link or non-indexed repository."
+    }
+  ],
+  "todo_checklist": [
+    "Finalize academic portfolio summary",
+    "Upload all olympiad diplomas and result pages",
+    "Add PSAT/SAT result when available",
+    "Add research/project section with screenshots or repo links",
+    "Add personal statement draft status",
+    "Add recommendation tracker",
+    "Add university shortlist",
+    "Add deadlines calendar"
+  ],
+  "manual_review_items": [
+    "Review detailed school reports before publishing any private commentary publicly.",
+    "Confirm subject-level grades that are only partially machine-readable.",
+    "Decide which evidence belongs in public mode versus private mode."
+  ]
+}

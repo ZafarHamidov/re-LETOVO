@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zafar | Academic Portfolio Dashboard</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <a class="brand" href="#hero">Zafar Academic Portfolio</a>
+        <nav class="topnav" id="topnav"></nav>
+        <div class="topbar-actions">
+          <button id="copy-link-button" class="ghost-button" type="button">Copy share link</button>
+          <button id="print-button" class="ghost-button" type="button">Print summary</button>
+        </div>
+      </header>
+
+      <main id="app" class="layout">
+        <section class="hero card" id="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">Personal academic dashboard</p>
+            <h1 id="student-name">Loading profile...</h1>
+            <p id="hero-summary" class="hero-summary"></p>
+            <div class="hero-tags" id="focus-tags"></div>
+          </div>
+          <div class="hero-metrics">
+            <div class="readiness-card">
+              <p class="metric-label">Estimated readiness</p>
+              <div class="donut" id="readiness-donut">
+                <div>
+                  <strong id="readiness-score">--</strong>
+                  <span>/100</span>
+                </div>
+              </div>
+              <p id="readiness-disclaimer" class="caption"></p>
+            </div>
+          </div>
+        </section>
+
+        <section class="grid-two">
+          <article class="card" id="academic-overview">
+            <div class="section-heading">
+              <p class="eyebrow">Academic Overview</p>
+              <h2>Program and evidence snapshot</h2>
+            </div>
+            <div id="student-meta" class="stack"></div>
+            <div id="academics-list" class="stack"></div>
+          </article>
+
+          <article class="card" id="key-metrics">
+            <div class="section-heading">
+              <p class="eyebrow">Key Metrics</p>
+              <h2>Portfolio signals</h2>
+            </div>
+            <div id="metrics-grid" class="metrics-grid"></div>
+            <div id="strength-bars" class="bars"></div>
+          </article>
+        </section>
+
+        <section class="grid-two">
+          <article class="card" id="achievements">
+            <div class="section-heading">
+              <p class="eyebrow">Achievements</p>
+              <h2>Competitions and certifications</h2>
+            </div>
+            <div id="olympiads-list" class="stack"></div>
+            <div id="certificates-list" class="stack"></div>
+          </article>
+
+          <article class="card" id="activities">
+            <div class="section-heading">
+              <p class="eyebrow">Activities & Leadership</p>
+              <h2>Direction, initiative, and growth</h2>
+            </div>
+            <div id="activities-list" class="stack"></div>
+            <div id="signals-list" class="stack"></div>
+          </article>
+        </section>
+
+        <section class="card" id="documents">
+          <div class="section-heading">
+            <p class="eyebrow">Evidence / Documents</p>
+            <h2>Evidence vault</h2>
+          </div>
+          <div class="toolbar">
+            <label class="filter-label" for="evidence-filter">Filter</label>
+            <select id="evidence-filter">
+              <option value="all">All</option>
+            </select>
+          </div>
+          <div id="evidence-grid" class="evidence-grid"></div>
+        </section>
+
+        <section class="grid-two">
+          <article class="card" id="admissions-readiness">
+            <div class="section-heading">
+              <p class="eyebrow">Admissions Readiness</p>
+              <h2>Where the profile is already strong</h2>
+            </div>
+            <div id="strengths-list" class="stack"></div>
+            <div id="weaknesses-list" class="stack"></div>
+          </article>
+
+          <article class="card" id="missing">
+            <div class="section-heading">
+              <p class="eyebrow">What Is Missing</p>
+              <h2>Highest-leverage gaps</h2>
+            </div>
+            <div id="missing-list" class="stack"></div>
+            <div id="next-actions-list" class="stack"></div>
+          </article>
+        </section>
+
+        <section class="grid-two">
+          <article class="card" id="goals">
+            <div class="section-heading">
+              <p class="eyebrow">Goals & Deadlines</p>
+              <h2>Intentional next targets</h2>
+            </div>
+            <div id="goals-list" class="stack"></div>
+          </article>
+
+          <article class="card" id="progress">
+            <div class="section-heading">
+              <p class="eyebrow">Progress Tracker</p>
+              <h2>Manual accountability checklist</h2>
+            </div>
+            <div id="progress-list" class="stack"></div>
+            <div id="todo-list" class="todo-list"></div>
+          </article>
+        </section>
+
+        <section class="card" id="plan">
+          <div class="section-heading">
+            <p class="eyebrow">Next 90 Days Plan</p>
+            <h2>Structured upgrade roadmap</h2>
+          </div>
+          <div id="timeline" class="timeline"></div>
+        </section>
+
+        <section class="grid-two">
+          <article class="card" id="share">
+            <div class="section-heading">
+              <p class="eyebrow">Contact / Share Section</p>
+              <h2>Portfolio use modes</h2>
+            </div>
+            <div id="privacy-guidance" class="stack"></div>
+          </article>
+
+          <article class="card" id="manual-review">
+            <div class="section-heading">
+              <p class="eyebrow">Manual Review</p>
+              <h2>Before public release</h2>
+            </div>
+            <div id="review-list" class="stack"></div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <template id="item-template">
+      <article class="list-item">
+        <div class="list-item-header">
+          <h3 class="list-item-title"></h3>
+          <span class="status-pill"></span>
+        </div>
+        <p class="list-item-body"></p>
+        <a class="file-link" target="_blank" rel="noreferrer">Open evidence</a>
+      </article>
+    </template>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,474 @@
+[
+  {
+    "file_name": "index.html",
+    "relative_path": "index.html",
+    "extension": ".html",
+    "category": "general",
+    "size_bytes": 6422,
+    "modified_at": "2026-04-10T20:19:22.926444+00:00"
+  },
+  {
+    "file_name": "DANO.jpg",
+    "relative_path": "source-materials/Diploms/DANO.jpg",
+    "extension": ".jpg",
+    "category": "olympiads",
+    "size_bytes": 204976,
+    "modified_at": "2026-04-10T19:56:06.483571+00:00"
+  },
+  {
+    "file_name": "IELTS Academic.pdf",
+    "relative_path": "source-materials/Diploms/IELTS Academic.pdf",
+    "extension": ".pdf",
+    "category": "mock_exams",
+    "size_bytes": 1016570,
+    "modified_at": "2026-04-10T19:50:57.872992+00:00"
+  },
+  {
+    "file_name": "Region certificate.pdf",
+    "relative_path": "source-materials/Diploms/Region certificate.pdf",
+    "extension": ".pdf",
+    "category": "olympiads",
+    "size_bytes": 321816,
+    "modified_at": "2026-04-10T19:50:57.306209+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Достижения .mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Достижения .mhtml",
+    "extension": ".mhtml",
+    "category": "activities",
+    "size_bytes": 1651366,
+    "modified_at": "2026-04-10T19:44:50.230770+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Заголовок.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Заголовок.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1651228,
+    "modified_at": "2026-04-10T19:43:49.232200+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Обществознание.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Обществознание.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1651341,
+    "modified_at": "2026-04-10T19:44:41.306934+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику олимпиада.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику олимпиада.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 1615175,
+    "modified_at": "2026-04-10T19:45:40.331094+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику психолог.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику психолог.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1651250,
+    "modified_at": "2026-04-10T19:44:07.705389+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты обучения.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Результаты обучения.mhtml",
+    "extension": ".mhtml",
+    "category": "academics",
+    "size_bytes": 1651294,
+    "modified_at": "2026-04-10T19:44:21.866226+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "extension": ".mhtml",
+    "category": "mock_exams",
+    "size_bytes": 1615242,
+    "modified_at": "2026-04-10T19:45:53.209573+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику сотрудника пансиона.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику сотрудника пансиона.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1615150,
+    "modified_at": "2026-04-10T19:45:28.908793+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Физика.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/1 полугодие/Репорт по ученику Физика.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1651316,
+    "modified_at": "2026-04-10T19:44:31.973311+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Академические результаты.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Академические результаты.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2420555,
+    "modified_at": "2026-04-10T19:39:56.989955+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику базовый .mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику базовый .mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2420763,
+    "modified_at": "2026-04-10T19:41:34.909164+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Второй полугодие.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Второй полугодие.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2384013,
+    "modified_at": "2026-04-10T19:42:21.278735+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Достижения ученика, трудности и рекомендации.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Достижения ученика, трудности и рекомендации.mhtml",
+    "extension": ".mhtml",
+    "category": "activities",
+    "size_bytes": 2384038,
+    "modified_at": "2026-04-10T19:42:37.134383+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Метапредмет.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Метапредмет.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2421216,
+    "modified_at": "2026-04-10T19:42:50.158547+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику олимпиады 2.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику олимпиады 2.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 2420716,
+    "modified_at": "2026-04-10T19:41:11.787439+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику олимпиады.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику олимпиады.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 2420671,
+    "modified_at": "2026-04-10T19:40:59.082405+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику профильный.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику профильный.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2420738,
+    "modified_at": "2026-04-10T19:41:23.070498+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику психолог.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику психолог.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2420624,
+    "modified_at": "2026-04-10T19:40:35.073023+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты обучения.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Результаты обучения.mhtml",
+    "extension": ".mhtml",
+    "category": "academics",
+    "size_bytes": 2420646,
+    "modified_at": "2026-04-10T19:40:47.005664+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "extension": ".mhtml",
+    "category": "mock_exams",
+    "size_bytes": 2421260,
+    "modified_at": "2026-04-10T19:43:05.126637+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику сотрудника пансиона.mhtml",
+    "relative_path": "source-materials/Letovo/2024-2025/Репорт по ученику сотрудника пансиона.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 2420602,
+    "modified_at": "2026-04-10T19:40:20.685128+00:00"
+  },
+  {
+    "file_name": "Активности - Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Активности - Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "activities",
+    "size_bytes": 586698,
+    "modified_at": "2026-04-10T19:30:07.559305+00:00"
+  },
+  {
+    "file_name": "Дельта.ЛК родителя.mhtml",
+    "relative_path": "source-materials/Letovo/Дельта.ЛК родителя.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 371596,
+    "modified_at": "2026-04-10T19:31:25.401539+00:00"
+  },
+  {
+    "file_name": "Диплом Летово - Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Диплом Летово - Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "administrative",
+    "size_bytes": 632606,
+    "modified_at": "2026-04-10T19:30:32.137645+00:00"
+  },
+  {
+    "file_name": "Олимпиады - Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Олимпиады - Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 543923,
+    "modified_at": "2026-04-10T19:30:19.054932+00:00"
+  },
+  {
+    "file_name": "Олимпиады - Личный Кабинет.pdf",
+    "relative_path": "source-materials/Letovo/Олимпиады - Личный Кабинет.pdf",
+    "extension": ".pdf",
+    "category": "olympiads",
+    "size_bytes": 68579,
+    "modified_at": "2026-04-10T19:29:01.334486+00:00"
+  },
+  {
+    "file_name": "Пробные экзамены 2.mhtml",
+    "relative_path": "source-materials/Letovo/Пробные экзамены 2.mhtml",
+    "extension": ".mhtml",
+    "category": "mock_exams",
+    "size_bytes": 338405,
+    "modified_at": "2026-04-10T19:33:13.305298+00:00"
+  },
+  {
+    "file_name": "Пробные экзамены.mhtml",
+    "relative_path": "source-materials/Letovo/Пробные экзамены.mhtml",
+    "extension": ".mhtml",
+    "category": "mock_exams",
+    "size_bytes": 344012,
+    "modified_at": "2026-04-10T19:32:58.734778+00:00"
+  },
+  {
+    "file_name": "Пропуски - Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Пропуски - Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "administrative",
+    "size_bytes": 539340,
+    "modified_at": "2026-04-10T19:32:40.586311+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Ардальянова Татьяна Евгеньевна.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Ардальянова Татьяна Евгеньевна.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1812567,
+    "modified_at": "2026-04-10T19:34:44.930780+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Базовый предмет.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Базовый предмет.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1812772,
+    "modified_at": "2026-04-10T19:36:53.436039+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Внеакадем.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Внеакадем.mhtml",
+    "extension": ".mhtml",
+    "category": "activities",
+    "size_bytes": 1544420,
+    "modified_at": "2026-04-10T19:39:11.021123+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Выполнение требований по программам развития.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Выполнение требований по программам развития.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1812326,
+    "modified_at": "2026-04-10T19:37:37.581218+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Метапредмет.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Метапредмет.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1809622,
+    "modified_at": "2026-04-10T19:38:15.206607+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Олимпиада.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Олимпиада.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 1812658,
+    "modified_at": "2026-04-10T19:35:50.748657+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Олимпиада2.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Олимпиада2.mhtml",
+    "extension": ".mhtml",
+    "category": "olympiads",
+    "size_bytes": 1812703,
+    "modified_at": "2026-04-10T19:36:01.866668+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику психолог.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику психолог.mhtml",
+    "extension": ".mhtml",
+    "category": "general",
+    "size_bytes": 1812611,
+    "modified_at": "2026-04-10T19:35:23.820508+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты обучения.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Результаты обучения.mhtml",
+    "extension": ".mhtml",
+    "category": "academics",
+    "size_bytes": 1812633,
+    "modified_at": "2026-04-10T19:35:36.911583+00:00"
+  },
+  {
+    "file_name": "Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "relative_path": "source-materials/Letovo/Репорт по ученику Результаты пробных экзаменов.mhtml",
+    "extension": ".mhtml",
+    "category": "mock_exams",
+    "size_bytes": 1812725,
+    "modified_at": "2026-04-10T19:36:31.413721+00:00"
+  },
+  {
+    "file_name": "Саммативы - Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Саммативы - Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "administrative",
+    "size_bytes": 532325,
+    "modified_at": "2026-04-10T19:32:47.419840+00:00"
+  },
+  {
+    "file_name": "Успеваемость 1- Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Успеваемость 1- Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "academics",
+    "size_bytes": 591590,
+    "modified_at": "2026-04-10T19:32:12.710323+00:00"
+  },
+  {
+    "file_name": "Успеваемость 2- Личный Кабинет.mhtml",
+    "relative_path": "source-materials/Letovo/Успеваемость 2- Личный Кабинет.mhtml",
+    "extension": ".mhtml",
+    "category": "academics",
+    "size_bytes": 568032,
+    "modified_at": "2026-04-10T19:32:22.500825+00:00"
+  },
+  {
+    "file_name": "746922-cambridge-handbook-2026.pdf",
+    "relative_path": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/746922-cambridge-handbook-2026.pdf",
+    "extension": ".pdf",
+    "category": "admissions",
+    "size_bytes": 4728446,
+    "modified_at": "2026-04-10T19:57:40.245636+00:00"
+  },
+  {
+    "file_name": "exam-schedule-Erevan.jpg",
+    "relative_path": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+    "extension": ".jpg",
+    "category": "mock_exams",
+    "size_bytes": 74435,
+    "modified_at": "2026-04-10T18:14:11.308707+00:00"
+  },
+  {
+    "file_name": "Ереван Договор об оказании услуг Хамидов Зафар 2026.pdf",
+    "relative_path": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/Ереван Договор об оказании услуг Хамидов Зафар 2026.pdf",
+    "extension": ".pdf",
+    "category": "admissions",
+    "size_bytes": 1964122,
+    "modified_at": "2026-04-10T19:57:53.751862+00:00"
+  },
+  {
+    "file_name": "IB DP 2025.pdf",
+    "relative_path": "source-materials/old IBDP Letovo program now ban in Russia/IB DP 2025.pdf",
+    "extension": ".pdf",
+    "category": "admissions",
+    "size_bytes": 3231334,
+    "modified_at": "2026-04-10T19:59:23.540147+00:00"
+  },
+  {
+    "file_name": "r_6thForm Offers Spreadsheet 2025 Entry (Responses).xlsx",
+    "relative_path": "source-materials/old IBDP Letovo program now ban in Russia/r_6thForm Offers Spreadsheet 2025 Entry (Responses).xlsx",
+    "extension": ".xlsx",
+    "category": "admissions",
+    "size_bytes": 353196,
+    "modified_at": "2026-04-10T20:00:09.038770+00:00"
+  },
+  {
+    "file_name": "photo.jpg",
+    "relative_path": "source-materials/Personal goals/photo.jpg",
+    "extension": ".jpg",
+    "category": "general",
+    "size_bytes": 49694,
+    "modified_at": "2026-04-10T19:33:33.561953+00:00"
+  },
+  {
+    "file_name": "Zafar_AI_Mission_Statement_with_Leaders_and_Plan.docx",
+    "relative_path": "source-materials/Personal goals/Zafar_AI_Mission_Statement_with_Leaders_and_Plan.docx",
+    "extension": ".docx",
+    "category": "activities",
+    "size_bytes": 28538,
+    "modified_at": "2026-04-10T20:02:41.473676+00:00"
+  },
+  {
+    "file_name": "Zafar_PSAT_Bilingual_Commitment.docx",
+    "relative_path": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx",
+    "extension": ".docx",
+    "category": "mock_exams",
+    "size_bytes": 29523,
+    "modified_at": "2026-04-10T20:02:57.084464+00:00"
+  },
+  {
+    "file_name": "Автономный ученик.docx",
+    "relative_path": "source-materials/Personal goals/Автономный ученик.docx",
+    "extension": ".docx",
+    "category": "activities",
+    "size_bytes": 34047,
+    "modified_at": "2026-04-10T20:02:04.985289+00:00"
+  },
+  {
+    "file_name": "1 half-term 2025-2026.pdf",
+    "relative_path": "source-materials/Submit Last School’s Report/1 half-term 2025-2026.pdf",
+    "extension": ".pdf",
+    "category": "academics",
+    "size_bytes": 32078,
+    "modified_at": "2025-12-17T02:34:36+00:00"
+  },
+  {
+    "file_name": "2024-2025 grades.pdf",
+    "relative_path": "source-materials/Submit Last School’s Report/2024-2025 grades.pdf",
+    "extension": ".pdf",
+    "category": "academics",
+    "size_bytes": 35126,
+    "modified_at": "2025-12-17T02:34:42+00:00"
+  },
+  {
+    "file_name": "School’s Report.pdf",
+    "relative_path": "source-materials/Submit Last School’s Report/School’s Report.pdf",
+    "extension": ".pdf",
+    "category": "academics",
+    "size_bytes": 61319,
+    "modified_at": "2025-12-17T02:36:14+00:00"
+  },
+  {
+    "file_name": "Term_Report_1_25-26_academic_year_AS_Khamidov_Zafar_2025-12-27.pdf",
+    "relative_path": "source-materials/Submit Last School’s Report/Term_Report_1_25-26_academic_year_AS_Khamidov_Zafar_2025-12-27.pdf",
+    "extension": ".pdf",
+    "category": "academics",
+    "size_bytes": 270285,
+    "modified_at": "2026-04-10T18:05:52.791394+00:00"
+  }
+]
