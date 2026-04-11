@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zafar | MHTML Snapshot Workspace</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="viewer-body">
+    <main class="viewer-shell">
+      <aside class="viewer-sidebar card">
+        <p class="eyebrow">Portal snapshots</p>
+        <h1 class="viewer-title">MHTML workspace</h1>
+        <p class="viewer-copy">Read Letovo portal reports in one dedicated workspace without cluttering the main dashboard.</p>
+        <div id="viewer-list" class="viewer-list"></div>
+      </aside>
+      <section class="viewer-stage card">
+        <div class="viewer-stage-header">
+          <div>
+            <p class="eyebrow">Reading view</p>
+            <h2 id="viewer-current-title">Select a report</h2>
+          </div>
+        </div>
+        <article id="viewer-document-placeholder" class="viewer-document">
+          <p class="viewer-empty">Choose a report from the left to read it here.</p>
+        </article>
+        <iframe id="viewer-frame" class="viewer-frame" title="Rendered MHTML report" hidden></iframe>
+      </section>
+    </main>
+    <script src="mhtml-viewer.js" defer></script>
+  </body>
+</html>

@@ -1,34 +1,65 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" data-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Zafar | Academic Portfolio Dashboard</title>
+    <title>Zafar Khamidov — Academic Portfolio</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="topbar">
-        <a class="brand" href="#hero">Zafar Academic Portfolio</a>
-        <nav class="topnav" id="topnav"></nav>
-        <div class="topbar-actions">
-          <button id="copy-link-button" class="ghost-button" type="button">Copy share link</button>
-          <button id="print-button" class="ghost-button" type="button">Print summary</button>
-        </div>
-      </header>
 
+    <!-- Theme toggle: fixed top-right, 36×36, icon-only, CSS shapes -->
+    <button id="theme-toggle" type="button" aria-label="Toggle theme">
+      <span class="toggle-icon"></span>
+    </button>
+
+    <!-- Navigation FAB -->
+    <button id="menu-button" class="menu-fab" type="button"
+            aria-expanded="false" aria-controls="topnav-panel"
+            aria-label="Open navigation">Nav</button>
+
+    <div class="page-shell">
       <main id="app" class="layout">
+
+        <!-- ① HEADER: name, tagline, readiness badge, view toggle -->
         <section class="hero card" id="hero">
-          <div class="hero-copy">
-            <p class="eyebrow">Personal academic dashboard</p>
-            <h1 id="student-name">Loading profile...</h1>
-            <p id="hero-summary" class="hero-summary"></p>
-            <div class="hero-tags" id="focus-tags"></div>
+          <div class="hero-top">
+            <div class="hero-copy">
+              <p class="eyebrow">Evidence-backed admissions dossier — Letovo School</p>
+              <h1 id="student-name" class="hero-name">Loading…</h1>
+              <p id="hero-summary" class="hero-tagline"></p>
+              <div class="hero-tags" id="focus-tags"></div>
+
+              <!-- Readiness badge -->
+              <div class="readiness-badge" id="readiness-badge-inline">
+                <span class="readiness-badge-score" id="badge-score">--</span>
+                <span>
+                  <span class="readiness-badge-label">Readiness score</span>
+                </span>
+              </div>
+
+              <!-- View toggle: personal ↔ admissions/public -->
+              <div class="view-toggle-bar" id="view-toggle" role="group" aria-label="View mode">
+                <button class="view-btn is-active" data-mode="personal" type="button">Personal</button>
+                <button class="view-btn" data-mode="admissions" type="button">Admissions</button>
+              </div>
+            </div>
+
+            <figure class="hero-photo-frame" id="hero-photo-frame">
+              <img id="student-photo" class="hero-photo" alt="Zafar portrait" />
+            </figure>
           </div>
-          <div class="hero-metrics">
-            <div class="readiness-card">
-              <p class="metric-label">Estimated readiness</p>
-              <div class="donut" id="readiness-donut">
+
+          <!-- Readiness / vision row -->
+          <div class="hero-score-row">
+            <div class="current-readiness-card readiness-card">
+              <p class="eyebrow readiness-eyebrow">Current condition</p>
+              <h3 class="readiness-title">Estimated readiness</h3>
+              <p class="readiness-summary">An honest snapshot derived from the current evidence base and documented achievements.</p>
+              <div class="readiness-target-row">
+                <p class="metric-label">Current readiness</p>
+              </div>
+              <div class="donut donut-current" id="readiness-donut">
                 <div>
                   <strong id="readiness-score">--</strong>
                   <span>/100</span>
@@ -36,71 +67,132 @@
               </div>
               <p id="readiness-disclaimer" class="caption"></p>
             </div>
+
+            <figure class="hero-ideal-frame" id="hero-ideal-frame">
+              <figcaption class="ideal-frame-copy">
+                <p class="eyebrow">Vision in progress</p>
+                <h3 class="ideal-frame-title">Future public profile</h3>
+              </figcaption>
+              <img id="ideal-visual" class="hero-ideal-image" alt="Zafar ideal visualization" />
+              <figcaption class="ideal-frame-copy ideal-frame-copy-bottom">
+                <p class="ideal-frame-text">A visual reminder of the disciplined, polished, world-class version this portfolio is being built toward.</p>
+              </figcaption>
+            </figure>
+
+            <div class="readiness-card ideal-readiness-card">
+              <p class="eyebrow readiness-eyebrow" id="vision-label">Top ambition</p>
+              <h3 class="readiness-title" id="vision-title">Champion trajectory</h3>
+              <p class="readiness-summary" id="vision-summary"></p>
+              <div class="readiness-target-row">
+                <div class="target-chip">
+                  <span class="target-chip-label">Target</span>
+                  <strong id="target-score">95</strong>
+                </div>
+                <p class="metric-label">Ideal profile</p>
+              </div>
+              <div class="donut donut-target" id="target-donut">
+                <div>
+                  <strong id="target-score-visual">95</strong>
+                  <span>/100</span>
+                </div>
+              </div>
+              <p id="target-note" class="caption"></p>
+            </div>
           </div>
         </section>
 
+        <!-- ② KPI STRIP: 4 metric cards -->
+        <section class="kpi-strip" id="kpi-strip" aria-label="Key metrics">
+          <article class="kpi-card" id="kpi-readiness">
+            <p class="kpi-label">Readiness</p>
+            <p class="kpi-value" id="kpi-readiness-value">--</p>
+            <p class="kpi-sub">out of 100</p>
+          </article>
+          <article class="kpi-card" id="kpi-evidence">
+            <p class="kpi-label">Evidence items</p>
+            <p class="kpi-value" id="kpi-evidence-value">--</p>
+            <p class="kpi-sub">documents indexed</p>
+          </article>
+          <article class="kpi-card" id="kpi-strength">
+            <p class="kpi-label">Strongest area</p>
+            <p class="kpi-value-sm" id="kpi-strength-value">--</p>
+            <p class="kpi-sub" id="kpi-strength-score"></p>
+          </article>
+          <article class="kpi-card" id="kpi-next">
+            <p class="kpi-label">Next action</p>
+            <p class="kpi-value-sm" id="kpi-next-value">--</p>
+            <p class="kpi-sub">highest priority</p>
+          </article>
+        </section>
+
+        <!-- Academic overview + key metrics -->
         <section class="grid-two">
           <article class="card" id="academic-overview">
             <div class="section-heading">
               <p class="eyebrow">Academic Overview</p>
-              <h2>Program and evidence snapshot</h2>
+              <h2>Program &amp; evidence snapshot</h2>
             </div>
             <div id="student-meta" class="stack"></div>
-            <div id="academics-list" class="stack"></div>
+            <div id="academics-list" class="stack" style="margin-top:12px"></div>
           </article>
 
+          <!-- ④ PROGRESS: bar chart per category from normalized_profile.json -->
           <article class="card" id="key-metrics">
             <div class="section-heading">
-              <p class="eyebrow">Key Metrics</p>
-              <h2>Portfolio signals</h2>
+              <p class="eyebrow">Progress</p>
+              <h2>Category scores</h2>
             </div>
             <div id="metrics-grid" class="metrics-grid"></div>
             <div id="strength-bars" class="bars"></div>
           </article>
         </section>
 
+        <!-- Achievements + Activities -->
         <section class="grid-two">
           <article class="card" id="achievements">
             <div class="section-heading">
               <p class="eyebrow">Achievements</p>
-              <h2>Competitions and certifications</h2>
+              <h2>Competitions &amp; certifications</h2>
             </div>
             <div id="olympiads-list" class="stack"></div>
-            <div id="certificates-list" class="stack"></div>
+            <div id="certificates-list" class="stack" style="margin-top:12px"></div>
           </article>
 
           <article class="card" id="activities">
             <div class="section-heading">
-              <p class="eyebrow">Activities & Leadership</p>
-              <h2>Direction, initiative, and growth</h2>
+              <p class="eyebrow">Activities &amp; Leadership</p>
+              <h2>Direction, initiative, growth</h2>
             </div>
             <div id="activities-list" class="stack"></div>
             <div id="signals-list" class="stack"></div>
           </article>
         </section>
 
+        <!-- ③ EVIDENCE GRID: filterable cards -->
         <section class="card" id="documents">
           <div class="section-heading">
-            <p class="eyebrow">Evidence / Documents</p>
-            <h2>Evidence vault</h2>
+            <p class="eyebrow">Evidence Vault</p>
+            <h2>All indexed documents</h2>
           </div>
           <div class="toolbar">
-            <label class="filter-label" for="evidence-filter">Filter</label>
+            <label class="filter-label" for="evidence-filter">Filter by category</label>
             <select id="evidence-filter">
-              <option value="all">All</option>
+              <option value="all">All categories</option>
             </select>
+            <button id="open-mhtml-workspace" class="ghost-button" type="button">Open MHTML workspace</button>
           </div>
           <div id="evidence-grid" class="evidence-grid"></div>
         </section>
 
+        <!-- Admissions readiness + Gaps -->
         <section class="grid-two">
           <article class="card" id="admissions-readiness">
             <div class="section-heading">
               <p class="eyebrow">Admissions Readiness</p>
-              <h2>Where the profile is already strong</h2>
+              <h2>Strengths &amp; growth areas</h2>
             </div>
             <div id="strengths-list" class="stack"></div>
-            <div id="weaknesses-list" class="stack"></div>
+            <div id="weaknesses-list" class="stack" style="margin-top:12px"></div>
           </article>
 
           <article class="card" id="missing">
@@ -109,14 +201,24 @@
               <h2>Highest-leverage gaps</h2>
             </div>
             <div id="missing-list" class="stack"></div>
-            <div id="next-actions-list" class="stack"></div>
+            <div id="next-actions-list" class="stack" style="margin-top:12px"></div>
           </article>
         </section>
 
+        <!-- ⑤ FOCUS: top gaps / next steps — hidden in admissions/public mode -->
+        <section class="card personal-only" id="focus">
+          <div class="section-heading">
+            <p class="eyebrow">Focus — Personal Mode Only</p>
+            <h2>Top 3 gaps &amp; next steps</h2>
+          </div>
+          <div id="focus-gaps" class="stack"></div>
+        </section>
+
+        <!-- Goals + Progress tracker -->
         <section class="grid-two">
           <article class="card" id="goals">
             <div class="section-heading">
-              <p class="eyebrow">Goals & Deadlines</p>
+              <p class="eyebrow">Goals &amp; Deadlines</p>
               <h2>Intentional next targets</h2>
             </div>
             <div id="goals-list" class="stack"></div>
@@ -125,31 +227,87 @@
           <article class="card" id="progress">
             <div class="section-heading">
               <p class="eyebrow">Progress Tracker</p>
-              <h2>Manual accountability checklist</h2>
+              <h2>Accountability checklist</h2>
             </div>
             <div id="progress-list" class="stack"></div>
             <div id="todo-list" class="todo-list"></div>
           </article>
         </section>
 
+        <!-- Exam Calendar -->
+        <section class="card" id="calendar">
+          <div class="section-heading">
+            <p class="eyebrow">Exam Calendar</p>
+            <h2>Prep checkpoints &amp; dated milestones</h2>
+          </div>
+          <p id="calendar-note" class="caption" style="margin-bottom:16px"></p>
+          <div class="calendar-layout">
+            <section class="calendar-board">
+              <div class="calendar-board-header">
+                <div>
+                  <p class="eyebrow">Calendar View</p>
+                  <h3 id="calendar-month-label" class="calendar-board-title">Month</h3>
+                </div>
+                <div id="calendar-month-pills" class="calendar-month-pills"></div>
+              </div>
+              <div class="calendar-weekdays">
+                <span>Sun</span><span>Mon</span><span>Tue</span>
+                <span>Wed</span><span>Thu</span><span>Fri</span><span>Sat</span>
+              </div>
+              <div id="calendar-grid" class="calendar-grid"></div>
+            </section>
+          </div>
+          <div class="calendar-folders">
+            <details class="calendar-subsection calendar-disclosure" open>
+              <summary class="calendar-subsection-header calendar-summary">
+                <div>
+                  <p class="eyebrow">Upcoming</p>
+                  <h3 class="calendar-subsection-title">Future deadlines</h3>
+                </div>
+                <span class="calendar-summary-toggle"></span>
+              </summary>
+              <div id="calendar-future" class="calendar-timeline"></div>
+            </details>
+            <details class="calendar-subsection calendar-disclosure">
+              <summary class="calendar-subsection-header calendar-summary">
+                <div>
+                  <p class="eyebrow">Archive</p>
+                  <h3 class="calendar-subsection-title">Past milestones</h3>
+                </div>
+                <span class="calendar-summary-toggle"></span>
+              </summary>
+              <div id="calendar-past" class="calendar-timeline"></div>
+            </details>
+          </div>
+        </section>
+
+        <!-- 90-Day Plan -->
         <section class="card" id="plan">
           <div class="section-heading">
-            <p class="eyebrow">Next 90 Days Plan</p>
+            <p class="eyebrow">Next 90 Days</p>
             <h2>Structured upgrade roadmap</h2>
           </div>
           <div id="timeline" class="timeline"></div>
         </section>
 
+        <!-- Share + Manual review (personal only) -->
         <section class="grid-two">
           <article class="card" id="share">
             <div class="section-heading">
-              <p class="eyebrow">Contact / Share Section</p>
-              <h2>Portfolio use modes</h2>
+              <p class="eyebrow">Portfolio Modes</p>
+              <h2>Share &amp; export</h2>
+            </div>
+            <div class="share-actions">
+              <a class="brand share-brand" href="#hero">Zafar Academic Portfolio</a>
+              <div class="share-actions-buttons">
+                <button id="copy-link-button" class="ghost-button" type="button">Copy share link</button>
+                <button id="print-button" class="ghost-button" type="button">Print summary</button>
+              </div>
             </div>
             <div id="privacy-guidance" class="stack"></div>
           </article>
 
-          <article class="card" id="manual-review">
+          <article class="card personal-only" id="manual-review">
             <div class="section-heading">
               <p class="eyebrow">Manual Review</p>
               <h2>Before public release</h2>
@@ -157,9 +315,22 @@
             <div id="review-list" class="stack"></div>
           </article>
         </section>
+
       </main>
     </div>
 
+    <!-- Side navigation panel -->
+    <aside class="side-menu" id="topnav-panel" hidden>
+      <div class="side-menu-header">
+        <div>
+          <p class="eyebrow">Navigate</p>
+          <p class="side-menu-copy">Jump to any section.</p>
+        </div>
+      </div>
+      <nav class="topnav" id="topnav"></nav>
+    </aside>
+
+    <!-- Template for list items -->
     <template id="item-template">
       <article class="list-item">
         <div class="list-item-header">

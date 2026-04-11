@@ -1,13 +1,5 @@
 [
   {
-    "file_name": "index.html",
-    "relative_path": "index.html",
-    "extension": ".html",
-    "category": "general",
-    "size_bytes": 6422,
-    "modified_at": "2026-04-10T20:19:22.926444+00:00"
-  },
-  {
     "file_name": "DANO.jpg",
     "relative_path": "source-materials/Diploms/DANO.jpg",
     "extension": ".jpg",
@@ -408,12 +400,36 @@
     "modified_at": "2026-04-10T20:00:09.038770+00:00"
   },
   {
+    "file_name": "Zafar ideal.png",
+    "relative_path": "source-materials/Personal goals/extra photos/Zafar ideal.png",
+    "extension": ".png",
+    "category": "general",
+    "size_bytes": 7849438,
+    "modified_at": "2026-04-10T20:58:49.904668+00:00"
+  },
+  {
+    "file_name": "Zafar opt-tier.jpg",
+    "relative_path": "source-materials/Personal goals/extra photos/Zafar opt-tier.jpg",
+    "extension": ".jpg",
+    "category": "general",
+    "size_bytes": 264902,
+    "modified_at": "2026-04-10T21:06:22.592551+00:00"
+  },
+  {
     "file_name": "photo.jpg",
     "relative_path": "source-materials/Personal goals/photo.jpg",
     "extension": ".jpg",
     "category": "general",
     "size_bytes": 49694,
     "modified_at": "2026-04-10T19:33:33.561953+00:00"
+  },
+  {
+    "file_name": "Zafar ideal 2.png",
+    "relative_path": "source-materials/Personal goals/Zafar ideal 2.png",
+    "extension": ".png",
+    "category": "general",
+    "size_bytes": 8153370,
+    "modified_at": "2026-04-10T21:02:09.121961+00:00"
   },
   {
     "file_name": "Zafar_AI_Mission_Statement_with_Leaders_and_Plan.docx",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T20:23:55.934025+00:00",
+  "generated_at": "2026-04-10T22:11:41.185962+00:00",
   "student": {
     "name": "Zafar Khamidov",
     "preferred_name": "Zafar",
@@ -14,7 +14,9 @@
       "Mathematics",
       "Bilingual / international track"
     ],
-    "hero_summary": "A motivated Letovo student building a serious STEM profile around AI, physics, informatics, and disciplined long-term growth."
+    "hero_summary": "A motivated Letovo student building a serious STEM profile around AI, physics, informatics, and disciplined long-term growth.",
+    "photo": "source-materials/Personal goals/photo.jpg",
+    "ideal_image": "source-materials/Personal goals/Zafar ideal 2.png"
   },
   "academics": [
     {
@@ -59,7 +61,9 @@
       "role": "Student participant",
       "period": "2025",
       "impact": "Focuses on self-management, strategic learning, and navigating complex school systems with maturity.",
-      "evidence_link": "source-materials/Personal goals/Автономный ученик.docx"
+      "evidence_link": "source-materials/Personal goals/Автономный ученик.docx",
+      "preview_image": "source-materials/Personal goals/ErevanExamPerStatement.jpg",
+      "preview_alt": "Erevan exam permission statement"
     }
   ],
   "certificates": [
@@ -107,6 +111,209 @@
       "source_file": "source-materials/Personal goals/Автономный ученик.docx"
     }
   ],
+  "exam_calendar": {
+    "note": "Documented dates come from certificates, reports, the Erevan exam schedule image, and test evidence. Prep checkpoints are inferred from those deadlines so the timeline stays actionable.",
+    "entries": [
+      {
+        "date": "2025-01-27",
+        "title": "All-Russian Olympiad in Physics",
+        "summary": "Prize winner at Regional stage level.",
+        "kind": "competition",
+        "source_type": "documented",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/Region certificate.pdf"
+      },
+      {
+        "date": "2025-03-14",
+        "title": "Regional Olympiad Certificate in Physics",
+        "summary": "Evidence-backed certificate or result date from Moscow Department of Education and Science.",
+        "kind": "result_release",
+        "source_type": "documented",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/Region certificate.pdf"
+      },
+      {
+        "date": "2025-06-29",
+        "title": "IELTS prep cycle begins",
+        "summary": "Build a focused 8-week review plan around reading, writing, listening, and speaking.",
+        "kind": "prep_checkpoint",
+        "source_type": "inferred",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/IELTS Academic.pdf"
+      },
+      {
+        "date": "2025-08-03",
+        "title": "IELTS full mock checkpoint",
+        "summary": "Run a full timed mock and review weak bands before the final stretch.",
+        "kind": "mock_checkpoint",
+        "source_type": "inferred",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/IELTS Academic.pdf"
+      },
+      {
+        "date": "2025-08-24",
+        "title": "IELTS Academic test date",
+        "summary": "Official exam date recorded in the IELTS evidence. Latest recorded band: 7/9.0.",
+        "kind": "exam_date",
+        "source_type": "documented",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/IELTS Academic.pdf"
+      },
+      {
+        "date": "2025-08-26",
+        "title": "IELTS Academic",
+        "summary": "Evidence-backed certificate or result date from IELTS.",
+        "kind": "result_release",
+        "source_type": "documented",
+        "status": "completed",
+        "source_file": "source-materials/Diploms/IELTS Academic.pdf"
+      },
+      {
+        "date": "2025-11-05",
+        "title": "PSAT study block begins",
+        "summary": "Open the disciplined 8-week prep block: reading drills, vocabulary review, and timed math sets.",
+        "kind": "prep_checkpoint",
+        "source_type": "inferred",
+        "status": "planned",
+        "source_file": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx"
+      },
+      {
+        "date": "2025-12-03",
+        "title": "PSAT full-length practice checkpoint",
+        "summary": "Take a full practice test and convert errors into a targeted final-month review list.",
+        "kind": "mock_checkpoint",
+        "source_type": "inferred",
+        "status": "planned",
+        "source_file": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx"
+      },
+      {
+        "date": "2025-12-24",
+        "title": "PSAT final review week",
+        "summary": "Shift from new material to speed, accuracy, and confidence under timed conditions.",
+        "kind": "final_review",
+        "source_type": "inferred",
+        "status": "planned",
+        "source_file": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx"
+      },
+      {
+        "date": "2025-12-27",
+        "title": "Term 1 AS report issued",
+        "summary": "Useful checkpoint for reviewing subject outcomes before the next exam-prep cycle.",
+        "kind": "academic_checkpoint",
+        "source_type": "documented",
+        "status": "completed",
+        "source_file": "source-materials/Submit Last School’s Report/Term_Report_1_25-26_academic_year_AS_Khamidov_Zafar_2025-12-27.pdf"
+      },
+      {
+        "date": "2025-12-31",
+        "title": "PSAT target deadline",
+        "summary": "Year-end target to secure an official PSAT result aligned with the stated 1400+ goal.",
+        "kind": "target_deadline",
+        "source_type": "inferred",
+        "status": "planned",
+        "source_file": "source-materials/Personal goals/Zafar_PSAT_Bilingual_Commitment.docx"
+      },
+      {
+        "date": "2026-04-28",
+        "title": "Physics 33: Advanced Practical Skills",
+        "summary": "Cambridge Physics 9702, paper 33. Extracted from the Erevan exam schedule image. Session: AM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "AM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-04-29",
+        "title": "Mathematics 12: Pure Mathematics 1",
+        "summary": "Cambridge Mathematics 9709, paper 12. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-06",
+        "title": "Mathematics 42: Mechanics",
+        "summary": "Cambridge Mathematics 9709, paper 42. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-07",
+        "title": "Further Mathematics 12: Further Pure Mathematics",
+        "summary": "Cambridge Further Mathematics 9231, paper 12. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-08",
+        "title": "Computer Science 12: Theory Fundamentals",
+        "summary": "Cambridge Computer Science 9618, paper 12. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-13",
+        "title": "Computer Science 22: Problem Solving and Programming",
+        "summary": "Cambridge Computer Science 9618, paper 22. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-20",
+        "title": "Physics 22: AS Level Structured Questions",
+        "summary": "Cambridge Physics 9702, paper 22. Extracted from the Erevan exam schedule image. Session: AM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "AM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-05-21",
+        "title": "Further Mathematics 32: Further Mechanics",
+        "summary": "Cambridge Further Mathematics 9231, paper 32. Extracted from the Erevan exam schedule image. Session: PM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "PM",
+        "group": "Erevan A-Level schedule"
+      },
+      {
+        "date": "2026-06-03",
+        "title": "Physics 12: Multiple Choice",
+        "summary": "Cambridge Physics 9702, paper 12. Extracted from the Erevan exam schedule image. Session: AM.",
+        "kind": "exam_schedule",
+        "source_type": "documented",
+        "status": "upcoming",
+        "source_file": "source-materials/new A-levels Letovo program allowed in Russia since 2025-2026/exam-schedule-Erevan.jpg",
+        "session": "AM",
+        "group": "Erevan A-Level schedule"
+      }
+    ]
+  },
   "commentary_signals": [],
   "admissions_gap_analysis": {
     "strengths": [
@@ -198,6 +405,13 @@
       "certificates": 2,
       "commentary_signals": 0
     }
+  },
+  "vision_panel": {
+    "label": "Top 0.5% to 1% ambition",
+    "title": "Champion trajectory",
+    "summary": "Built as a disciplined, evidence-backed path toward MIT, Harvard, Yale, Stanford, Princeton, and similarly selective institutions.",
+    "target_score": 95,
+    "target_note": "Target profile level for a truly elite, globally competitive application package."
   },
   "progress_tracker": [
     {

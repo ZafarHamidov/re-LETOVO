@@ -1,13 +1,5 @@
 [
   {
-    "source_file": "index.html",
-    "relative_path": "index.html",
-    "category": "general",
-    "title": "index",
-    "snippet": "<!doctype html> <html lang=\"en\"> <head> <meta charset=\"UTF-8\" /> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>Zafar | Academic Portfolio Dashboard</title> <link rel=\"stylesheet\" href=\"styles.css\" /> </head> <body> <div class=\"page-shell\"> <header class=\"topbar\"> <a class=\"brand\" href=\"#hero\">Zafar Academic Portfolio</a> <nav class=\"topnav\" id=\"topnav\"></nav> <div class=\"topbar-actions\"> <button id=\"copy-link-button\" class=\"ghost-button\" type=\"button\">Copy share link</button> <button id=\"print-button\" class=\"ghost-button\" type=\"button\">Print summary</button> <",
-    "has_text": true
-  },
-  {
     "source_file": "DANO.jpg",
     "relative_path": "source-materials/Diploms/DANO.jpg",
     "category": "olympiads",
@@ -408,11 +400,35 @@
     "has_text": true
   },
   {
+    "source_file": "Zafar ideal.png",
+    "relative_path": "source-materials/Personal goals/extra photos/Zafar ideal.png",
+    "category": "general",
+    "title": "Zafar ideal",
+    "snippet": "Image asset available for manual review: Zafar ideal.png",
+    "has_text": true
+  },
+  {
+    "source_file": "Zafar opt-tier.jpg",
+    "relative_path": "source-materials/Personal goals/extra photos/Zafar opt-tier.jpg",
+    "category": "general",
+    "title": "Zafar opt-tier",
+    "snippet": "Image asset available for manual review: Zafar opt-tier.jpg",
+    "has_text": true
+  },
+  {
     "source_file": "photo.jpg",
     "relative_path": "source-materials/Personal goals/photo.jpg",
     "category": "general",
     "title": "photo",
     "snippet": "Image asset available for manual review: photo.jpg",
+    "has_text": true
+  },
+  {
+    "source_file": "Zafar ideal 2.png",
+    "relative_path": "source-materials/Personal goals/Zafar ideal 2.png",
+    "category": "general",
+    "title": "Zafar ideal 2",
+    "snippet": "Image asset available for manual review: Zafar ideal 2.png",
     "has_text": true
   },
   {
