@@ -1055,7 +1055,7 @@ def build_profile(records: list[EvidenceRecord]) -> dict[str, Any]:
         "vision_panel": {
             "label": "Top 0.5% to 1% ambition",
             "title": "Champion trajectory",
-            "summary": "Built as a disciplined, evidence-backed path toward MIT, Harvard, Yale, Stanford, Princeton, and similarly selective institutions.",
+            "summary": "Built as a disciplined, evidence-backed path toward MIT, Harvard, Princeton, and similarly selective institutions.",
             "target_score": 95,
             "target_note": "Target profile level for a truly elite, globally competitive application package.",
         },
